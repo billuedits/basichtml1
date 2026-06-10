@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+@media(min-width: 319px) and (max-width: 480px) {
+    body{
+        background-color: #FAF7F3;
+    }
+}
+@media(min-width: 481px) and (max-width: 1200px) {
+    body{
+        background-color: #E4E0E1;
+    }
+}
+@media(min-width: 1201px) and (max-width: 1600px) {
+    body{
+        background-color: #F6F0D7;
+    }
+}
+@media(min-width: 1601px) {
+    body{
+        background-color: #F2E3BB;
+    }
+}
