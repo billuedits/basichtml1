@@ -1,14 +1,13 @@
 body{
     background-color: beige;
 }
-h1{
+.heading{   
     color: brown;
-    text-align: center;
+    text-align: center;}
+h1{
     font-size: 3.5rem;
 }
 p{
-    color: brown;
-    text-align: center;
     font-size: 1.5rem;
 }
 @media(min-width: 319px) and (max-width: 480px) {
