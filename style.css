@@ -1,31 +1,50 @@
 body{
     background-color: beige;
-}
+    }
 .heading{   
     color: brown;
-    text-align: center;}
-h1{
-    font-size: 3.5rem;
-}
-p{
-    font-size: 1.5rem;
-}
+    text-align: center;
+    }
 @media(min-width: 319px) and (max-width: 480px) {
     body{
         background-color: #FAF7F3;
     }
     .heading{
-        color: #DCC5B2;
+        color: #dd5652;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.75rem;
     }
 }
 @media(min-width: 481px) and (max-width: 1200px) {
     body{
-        background-color: #E4E0E1;
+        background-color: #E0FBE2
+    }
+    .heading{
+        color: #3b870e;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.75rem;
     }
 }
 @media(min-width: 1201px) and (max-width: 1600px) {
     body{
-        background-color: #F6F0D7;
+        background-color: #FFF5F8
+    }
+    .heading{
+        color: #FF4081;
+    }
+    h1{
+    font-size: 3.5rem;
+    }
+    p{
+    font-size: 1.5rem;
     }
 }
 @media(min-width: 1601px) {
@@ -34,5 +53,11 @@ p{
     }
     .heading{
         color: #005F02;
+    }
+    h1{
+    font-size: 3.5rem;
+    }
+    p{
+    font-size: 1.5rem;
     }
 }
